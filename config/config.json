@@ -1,0 +1,17 @@
+{
+  "upload_dir": "./uploads",
+  "jwt_secret": "your-secret-key",
+  "redis": {
+    "addr": "localhost:6379",
+    "password": "",
+    "db": 0,
+    "pool_size": 10
+  },
+  "port": "8080",
+  "max_upload_size": 10485760, 
+  "top_refresh_interval": 600, 
+  "rate_limit": {
+    "requests": 100,
+    "duration": 60 
+  }
+}
